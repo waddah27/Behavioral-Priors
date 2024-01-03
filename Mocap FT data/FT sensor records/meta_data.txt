@@ -1,0 +1,7 @@
+Start Time: 8/14/23 6:27 PM
+RDT Sample Rate: 7000
+"PLEASE NOTE: The sample rate is read from the Net F/T when the program starts.  If you have changed the sample rate since the program started, this will be incorrect."
+Force Units: N
+Counts per Unit Force: 0.224809
+Torque Units: Nm
+Counts per Unit Torque: 8.85075
