@@ -11,20 +11,20 @@ tool or workpiece to characterize the contact forces and dynamic inter-
 actions occurring during cutting maneuvers.
 
 **2. Data Treatment**:
-• **Alignment and Synchronization**: Ensure synchronization between
+* **Alignment and Synchronization**: Ensure synchronization between
 trajectory and interaction data to create coherent sequences representa-
 tive of the cutting actions.
-• **Preprocessing**: Apply noise reduction, filtering, and normalization tech-
+* **Preprocessing**: Apply noise reduction, filtering, and normalization tech-
 niques to enhance data quality and consistency, ensuring robustness in
 subsequent processing steps.
 3. **Encoding Behavior Priors**:
-• Feature Extraction: Derive salient features from the aligned trajectory
+* **Feature Extraction**: Derive salient features from the aligned trajectory
 and interaction data, potentially including tool pose variations, force
 distributions, and contact event sequences specific to cutting actions.
 
 * **Gaussian Mixture Models (GMM)**: Utilize GMM to model the joint
 distribution of these extracted features, capturing the nuanced variations
 and patterns inherent in cutting tasks.
-• **Gaussian Mixture Regression (GMR)**: Employ GMR to perform
+* **Gaussian Mixture Regression (GMR)**: Employ GMR to perform
 regression within the GMM components, facilitating the mapping from
 observed features to desired actions or behaviors during cutting.
